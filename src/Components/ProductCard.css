@@ -1,0 +1,147 @@
+
+.abt{
+    text-decoration: none;
+  }
+  
+  .display-products-layout1{
+   display: grid;
+   grid-template-columns: repeat(3,2fr);
+  row-gap: 20px;
+  column-gap: 20px;
+  }
+
+  @media (max-width:1120px) {
+    .filter-section{
+      display: none;
+    }
+    .display-products-layout1{
+   margin-left: 100px;
+    }
+  }
+
+  @media (max-width:1000px) {
+
+    .display-products-layout1{
+   grid-template-columns: repeat(2,2fr);
+   margin-left:0px;
+    }
+  }
+
+
+  
+  .display-products-layout2{
+    display: grid;
+   grid-template-columns: 3fr;
+   row-gap: 20px;
+   }
+   
+
+  .product-images{
+    border-radius: 5px;
+    width: 20rem;
+    height: 13rem;
+  }
+  
+  .product-title{
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+  }
+  
+ .layout1{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 3px;
+ }  
+
+ .layout1-clicked{
+   font-size: 30px;
+   cursor: pointer;
+   background-color: black;
+   color: white;
+   border-radius: 5px;
+   padding: 3px;
+ }
+
+ .filter-comp{
+display: flex;
+justify-content: space-between;
+align-items: center;
+ }
+
+ .filter-layout{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .sort-component{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .sort-text{
+   font-size: 17px;
+ }
+
+ .sel{
+   border: none;
+ }
+
+ .product-single-images{
+  border-radius: 5px;
+  width: 20rem;
+  height: 14rem; 
+ }
+
+ .text{
+   display: Block;
+   text-align: left;
+ }
+
+.input-fil{
+  background-color: rgb(241, 245, 245);
+  border: none;
+}
+
+.list-cat li{
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(156, 158, 158);
+  cursor: pointer;
+  margin: 5px;
+  font-size: 15px;
+}
+
+
+.select{
+  background-color:rgb(241, 245, 245);
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+}
+
+.colors{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btns{
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 2px; 
+  cursor: pointer;
+}
+
+.free{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

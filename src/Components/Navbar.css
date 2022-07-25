@@ -1,0 +1,65 @@
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.nav-link{
+ font-weight: 400;
+ font-size: 17px;
+}
+
+.nav-link::after{
+ display: block;
+ content: "";
+ width: 0%;
+ height: 2px;
+ background-color: rgb(179, 122, 97);
+ margin: auto;   
+ transition: 0.1s ease-in-out;
+}
+
+.nav-link:hover::after{
+    width: 100%;
+}
+   
+
+
+
+.login{
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.1s ease-in;
+}
+
+.login:hover{
+ color: white;
+ background-color: black;
+}
+
+@media  (max-width:900px) {
+    .list{
+        display: none;
+    }
+}
